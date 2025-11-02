@@ -1,0 +1,331 @@
+:root {
+    --primary-bg-color: #10375c;
+    --white-color: #fcf7f7;
+    --color-2: #ffffffc1;
+    --color-3: #f6fbff;
+    --color-4: #eaf6ff;
+}
+
+body {
+    font-size: 1rem !important;
+    background: var(--white-color);
+}
+
+.navbar-toggler-icon {
+    background-image: url(Img/ic-menu.svg) !important;
+}
+
+.btt-hov {
+    background: var(--primary-bg-color) !important;
+}
+.btt-hov:hover {
+    background: var(--white-color) !important;
+    color: black !important;
+}
+
+header {
+    background: var(--primary-bg-color);
+}
+
+header * {
+    color: var(--color-2) !important;
+}
+
+.nav-link:hover, .active {
+    color: var(--white-color) !important;
+}
+
+#home {
+    background: var(--primary-bg-color);
+    color: var(--white-color) !important;
+    padding-bottom: 8rem !important;
+}
+
+.feacture-home img {
+    width: 25vw;
+    z-index: 2 !important;
+    aspect-ratio: 8/14 !important;
+}
+
+.feacture-home img:last-of-type {
+    width: 20vw !important;
+    position: relative;
+    left: -5% !important;
+    z-index: 1 !important;
+}
+
+.title-home {
+    font-size: 3rem !important;
+}
+
+#services {
+    margin-top: 12rem !important;
+}
+
+:is(#services, #about, #medecins, #actualite) h2 {
+    font-size: 3.2rem !important;
+    color: var(--primary-bg-color) !important;
+}
+
+.content-service > img {
+    width: 35vw;
+    aspect-ratio: 14/16 !important;
+}
+
+.types-operation img {
+    width: 15% !important;
+    height: 50% !important;
+    aspect-ratio: 1/1;
+}
+
+.comp {
+    transition: all 0.3s ease-in-out;
+}
+.comp:hover {
+    background: var(--color-2) !important;
+    box-shadow: var(--bs-box-shadow-lg) !important;
+}
+.comp:hover .img-thumbnail {
+    background-color: var(--bs-primary);
+}
+
+#about {
+    margin-top: 12rem !important;
+    padding-top: 6rem !important;
+    padding-left: 4.5rem !important;
+    padding-right: 4.5rem !important;
+    padding-bottom: 5rem !important;
+    background: var(--color-3) !important;
+}
+
+.content-about div {
+    border-width: 1rem !important;
+    transition: all 0.3s ease-in-out;
+}
+.content-about div:hover {
+    border-color: var(--bs-primary) !important;
+    transform:translateY(-1.2rem) !important;
+}
+.content-about div:hover a {
+    color: var(--bs-primary) !important;
+}
+
+.encouragement {
+    height: min-content;
+    margin-top: 10rem !important;
+    padding-top: 8rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.encouragement div:first-of-type {
+    height: max-content;
+    width: max-content;
+}
+
+.encouragement div:first-of-type img {
+    width: 35vw;
+    z-index: 1 !important;
+    aspect-ratio: 14/10 !important;
+}
+
+.encouragement div:first-of-type img:last-of-type {
+    width: 25vw !important;
+    aspect-ratio: 16/18 !important;
+    position: relative;
+    left: -20vw !important;
+    top: 21vh !important;
+    z-index: 2 !important;
+}
+
+#medecins {
+    margin-top: 10rem !important;
+    padding-top: 8rem !important;
+    padding-bottom: 5rem !important;
+}
+
+#medecins .containt-doctor {
+    width: max-content !important;
+    transition: all 0.3s ease-in-out !important;
+    cursor: pointer;
+}
+
+#medecins .img-thumbnail {
+    background: var(--color-4);
+}
+
+#medecins .containt-doctor:hover {
+    transform: translateY(-1.8rem);
+    border-color: var(--bs-primary);
+    box-shadow: var(--bs-box-shadow-lg);
+}
+
+.containt-doctor img {
+    width: 20vw !important;
+}
+
+.apk {
+    height: min-content !important;
+    margin-top: 12rem !important;
+    margin-right: 5rem !important;
+    margin-left: 5rem !important;
+    margin-bottom: 8rem !important;
+    padding-right: 5rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    color: var(--white-color) !important;
+}
+
+.apk > img {
+    width: 25vw !important;
+    left: 6vw !important;
+    top: -26% !important;
+}
+
+.apk h2 {
+    font-size: 3.2rem !important;
+}
+
+.telechargement img {
+    transition: all 0.6 ease !important;
+}
+
+.telechargement img:hover {
+    transform: scale(1.1) !important;
+}
+
+#actualite {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    margin-top: 15rem !important;
+    margin-bottom: 8rem !important;
+}
+
+.traitement > div {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.traitement > div:hover {
+    transform: translateY(-1.9rem) !important;
+    box-shadow: var(--bs-box-shadow-lg);
+}
+
+.traitement > div:hover a {
+    color: var(--primary-bg-color) !important;
+    font-weight: bold;
+}
+
+.message {
+    padding-top: 2rem !important;
+    padding-bottom: 4rem !important;
+    margin-top: 15rem !important;
+    margin-bottom: 8rem !important;
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+    background: var(--color-4);
+}
+
+.message h2 {
+    font-size: 3.2rem !important;
+    color: var(--primary-bg-color) !important;
+}
+
+footer {
+    padding-top: 6rem !important;
+    margin-top: 12rem !important;
+    background: var(--primary-bg-color) !important;
+    color: var(--white-color) !important;
+}
+
+footer h4 {
+    transition: all 0.3s ease-in-out;
+}
+
+footer h4:hover {
+    transform: scale(1.2) !important;
+}
+
+@media screen and (min-width: 1020px) {
+    .title-home {
+        font-size: 5rem !important;
+    }
+
+    .types-operation {
+        width: 60% !important;
+    }
+
+    #about > p {
+        width: 38% !important;
+    }
+
+    #actualite {
+        padding-right: 5rem !important;
+        padding-left: 5rem !important;
+    }
+
+    .message {
+        padding-right: 8rem !important;
+        padding-left: 8rem !important;
+        padding-top: 8rem !important;
+        padding-bottom: 8rem !important;
+        margin-top: 15rem !important;
+        margin-bottom: 8rem !important;
+        margin-right: 8rem !important;
+        margin-left: 8rem !important;
+        background: var(--color-4);
+    }
+
+    footer {
+        padding-right: 8rem !important;
+        padding-left: 8rem !important;
+        padding-top: 6rem !important;
+        margin-top: 12rem !important;
+        background: var(--primary-bg-color) !important;
+        color: var(--white-color) !important;
+    }
+}
+
+@media screen and (max-width: 1019px) {
+
+    #offcanvasInscrire, #offcanvasConnecte {
+        width: 75% !important;
+    }
+
+    .btt-ins {
+        width: 100% !important;
+    }
+
+    .title-home + p {
+        width: 75% !important;
+        margin: auto;
+    }
+
+    .feacture-home img:first-of-type {
+        width: 100% !important;
+        margin: auto;
+        aspect-ratio: 14/14 !important;
+    }
+
+    #about {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .containt-doctor img {
+        width: 80vw !important;
+    }
+
+    .message h2 {
+        font-size: 1.8rem !important;
+    }
+
+    .content-footer > div {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .feacture-home img:last-of-type { display: none; }
+}

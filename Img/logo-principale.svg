@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120">
+  <text x="10" y="60"
+        font-family="Playfair Display, serif"
+        font-size="38"
+        font-weight="700"
+        fill="#10375c">
+    Shine <tspan fill="#ffb900">Smile</tspan>
+  </text>
+  <path d="M20 70 q60 25 120 0" fill="none" stroke="#ffb900" stroke-width="4" stroke-linecap="round"/>
+</svg>
